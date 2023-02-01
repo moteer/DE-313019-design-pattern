@@ -10,5 +10,5 @@ interface HouseBuilder //interface
 
     void buildInterior();
 
-    House getHouse();
+    HouseThingToBuild getHouse();
 }

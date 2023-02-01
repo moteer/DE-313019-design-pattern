@@ -1,6 +1,6 @@
 package de.brightslearnning.java.advanced.designpattern.builder;
 
-class House implements HousePlan {
+class HouseThingToBuild {
     private String basement;
     private String structure;
     private String roof;

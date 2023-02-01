@@ -2,11 +2,11 @@ package de.brightslearnning.java.advanced.designpattern.builder;
 
 class TipiHouseBuilder implements HouseBuilder //Concrete Builder
 {
-    private House house;
+    private HouseThingToBuild house;
 
     public TipiHouseBuilder()
     {
-        this.house = new House();
+        this.house = new HouseThingToBuild();
     }
 
     public void buildBasement()
@@ -29,7 +29,7 @@ class TipiHouseBuilder implements HouseBuilder //Concrete Builder
         house.setRoof("Wood, caribou and seal skins");
     }
 
-    public House getHouse()
+    public HouseThingToBuild getHouse()
     {
         return this.house;
     }

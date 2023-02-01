@@ -2,11 +2,11 @@ package de.brightslearnning.java.advanced.designpattern.builder;
 
 class IglooHouseBuilder implements HouseBuilder  //Concrete Builder
 {
-    private House house;
+    private HouseThingToBuild house;
 
     public IglooHouseBuilder()
     {
-        this.house = new House();
+        this.house = new HouseThingToBuild();
     }
 
     public void buildBasement()
@@ -29,7 +29,7 @@ class IglooHouseBuilder implements HouseBuilder  //Concrete Builder
         house.setRoof("Ice Dome");
     }
 
-    public House getHouse()
+    public HouseThingToBuild getHouse()
     {
         return this.house;
     }

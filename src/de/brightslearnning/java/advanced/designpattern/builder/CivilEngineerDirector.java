@@ -10,7 +10,7 @@ public class CivilEngineerDirector
         this.houseBuilder = houseBuilder;
     }
 
-    public House getHouse()
+    public HouseThingToBuild getHouse()
     {
         return this.houseBuilder.getHouse();
     }
