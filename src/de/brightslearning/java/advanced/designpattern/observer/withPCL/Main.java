@@ -1,4 +1,4 @@
-package de.brightslearning.java.advanced.designpattern.observer.propchangelist;
+package de.brightslearning.java.advanced.designpattern.observer.withPCL;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package de.brightslearning.java.advanced.designpattern.observer.propchangelist;
+package de.brightslearning.java.advanced.designpattern.observer.withPCL;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;

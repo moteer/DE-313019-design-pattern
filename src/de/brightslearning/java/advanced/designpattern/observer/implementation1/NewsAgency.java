@@ -1,4 +1,4 @@
-package de.brightslearning.java.advanced.designpattern.observer.withjava;
+package de.brightslearning.java.advanced.designpattern.observer.implementation1;
 
 import java.util.ArrayList;
 import java.util.List;
