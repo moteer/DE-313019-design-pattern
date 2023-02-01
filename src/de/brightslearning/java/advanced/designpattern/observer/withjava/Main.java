@@ -1,6 +1,15 @@
-package de.brightslearning.java.advanced.designpattern.observer;
+package de.brightslearning.java.advanced.designpattern.observer.withjava;
 
 public class Main {
+    /**
+     * Observer is a behavioral design pattern. It specifies communication between objects: observable and observers.
+     * An observable is an object which notifies multiple objects, or observers, about any events that happen to the object
+     * they are observing.
+     *
+     * For example, a news agency can notify channels when it receives news.
+     * Receiving news is what changes the state of the news agency, and it causes the channels to be notified.
+     *
+     */
     public static void main(String[] args) {
         NewsAgency observable = new NewsAgency();
         NewsChannel observer = new NewsChannel();
