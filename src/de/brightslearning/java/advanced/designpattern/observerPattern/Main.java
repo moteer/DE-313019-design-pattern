@@ -1,6 +1,8 @@
 package de.brightslearning.java.advanced.designpattern.observerPattern;
 
-public class Main {
+import java.util.EventListener;
+
+public class Main implements EventListener {
     public static void main(String[] args) {
         Pinguin pingu = new Pinguin();
 
