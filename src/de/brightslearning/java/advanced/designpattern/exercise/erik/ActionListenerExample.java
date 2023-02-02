@@ -57,6 +57,7 @@ public class ActionListenerExample implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         currentText = textField.getText();
+        commandLinePrinter.setInputText(currentText);
         label.setText(currentText);
         history.add(currentText);
     }

@@ -5,7 +5,6 @@ import java.awt.event.ActionListener;
 
 public class CommandLinePrinter implements ActionListener {
 
-
     // Schlechtes Design
     private String inputText;
 
@@ -17,5 +16,8 @@ public class CommandLinePrinter implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         System.out.println(e.getSource());
         System.out.println(inputText);
+    }
+    public void setInputText(String inputText) {
+        this.inputText = inputText;
     }
 }
