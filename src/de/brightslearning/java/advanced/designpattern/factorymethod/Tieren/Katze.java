@@ -1,4 +1,4 @@
-package de.brightslearning.java.advanced.designpattern.didesignpattern.FactoryMethod.Tieren;
+package de.brightslearning.java.advanced.designpattern.factorymethod.Tieren;
 
 public class Katze implements Tier {
     @Override

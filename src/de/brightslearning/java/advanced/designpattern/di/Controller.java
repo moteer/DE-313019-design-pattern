@@ -1,7 +1,6 @@
 package de.brightslearning.java.advanced.designpattern.di;
 
 import de.brightslearning.java.advanced.designpattern.di.iban.IbanValidationService;
-import de.brightslearning.java.advanced.designpattern.di.iban.IbanValidationServiceImpl;
 
 public class Controller {
 

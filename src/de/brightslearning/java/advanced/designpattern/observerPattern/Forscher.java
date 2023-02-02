@@ -1,4 +1,4 @@
-package observerPattern;
+package de.brightslearning.java.advanced.designpattern.observerPattern;
 
 public class Forscher implements Beobachter {
 

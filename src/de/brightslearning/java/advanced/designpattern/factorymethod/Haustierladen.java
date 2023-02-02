@@ -1,6 +1,6 @@
-package de.brightslearning.java.advanced.designpattern.didesignpattern.FactoryMethod;
+package de.brightslearning.java.advanced.designpattern.factorymethod;
 
-import de.brightslearning.java.advanced.designpattern.didesignpattern.FactoryMethod.Tieren.Tier;
+import de.brightslearning.java.advanced.designpattern.factorymethod.Tieren.Tier;
 
 public class Haustierladen extends TierFabrik {
     public static void main (String[] args) {

@@ -1,4 +1,4 @@
-package de.brightslearnning.java.advanced.designpattern.builder;
+package de.brightslearning.java.advanced.designpattern.builder;
 
 class IglooHouseBuilder implements HouseBuilder  //Concrete Builder
 {
